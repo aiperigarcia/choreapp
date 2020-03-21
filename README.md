@@ -2,7 +2,7 @@
 
 ## Goal:
 
-Full-stack web application that help to keep track of chores between roomates. User can update completed chore by thumbs up and delete it after.
+Full-stack web application that help to keep track of chores between roommates. User can update completed chore by thumbs up and delete it after.
 
 ![tracker](public/img/readme.png)
 ![tracker](public/img/read.png)
