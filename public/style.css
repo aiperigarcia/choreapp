@@ -1,0 +1,26 @@
+body {
+  padding-top: 80px;
+  word-wrap: break-word;
+  background-color: #FEF7E0;
+}
+
+img {
+  height: 200px;
+}
+
+.jumbotron {
+  background-image: url('img/chore.gif');
+  height: 700px;
+  background-size: cover
+}
+
+
+.jumbotron h1{
+margin-top: 0;
+margin-bottom: 10%;
+}
+
+.jumbotron{
+  margin-bottom: 3%;
+  font-size: 26px;
+}

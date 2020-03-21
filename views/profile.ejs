@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Roomies Chores Tracker</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/077191d827.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="page-header text-center">
+      <h1><span class="fas fa-broom"></span> My Profile</h1>
+      <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+    </div>
+    <div class="col-sm-5">
+      <p>Keep track of every week chores between your roomates</p>
+
+
+      <h2>Add a chore</h2>
+      <form action="/messages" method="POST">
+        <input type="text" placeholder="name" name="name">
+        <input type="text" placeholder="chore" name="msg">
+        <input type="text" placeholder="date: MM/DD" name="date">
+        <button type="submit">Submit</button>
+      </form>
+
+
+      <h2>Chores</h2>
+      <tbody>
+        <table>
+          <tr>
+            <th class="top">Name</th>
+            <th class="top">Chore</th>
+            <th class="top">Date</th>
+          </tr>
+          <% for(var i=0; i<messages.length; i++) {%>
+          <tr class="message">
+            <th class="side"><%=messages[i].name%></th>
+            <th class="side"><%=messages[i].msg%></th>
+            <th class="side"><%=messages[i].date%></th>
+            <th class="side"><%=messages[i].thumbUp%></th>
+            <th><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+            <th><i class="fa fa-trash" aria-hidden="true"></i></th>
+          </tr>
+          <% } %>
+        </table>
+      </tbody>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
