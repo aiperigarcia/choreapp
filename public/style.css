@@ -24,3 +24,41 @@ margin-bottom: 10%;
   margin-bottom: 3%;
   font-size: 26px;
 }
+
+.form-control{
+  width: 60% !important;
+}
+
+.col-sm-6{
+  margin-left: 34% !important;
+  margin-top: 2% !important;
+}
+
+.btn-lg{
+  background-color: #7357a0 !important;
+  border: none !important;
+  margin-left: 23% !important;
+  margin-top: 2% !important;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16%;
+}
+
+hr{
+  border-top: none !important;
+}
+
+p{
+  margin-left: 15%;
+}
+
+.login{
+  margin-left: 0;
+}
+
+.main{
+  margin-right: 4%;
+}

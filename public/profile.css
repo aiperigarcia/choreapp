@@ -1,12 +1,14 @@
 body {
-  background-image: url('img/ch.jpg');
+  background-image: url('img/d.jpeg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FBC39C;
 }
 
 .well {
   min-height: 20px;
   padding: 19px;
-  background-color: aliceblue;
+  background-color: #155c9a;
   border-radius: 4px;
 }
 
@@ -16,15 +18,16 @@ body {
 
 h1 {
   font-size: 45px;
-  margin-bottom: 30px;
+  margin-bottom: 3%;
   color: brown;
   margin-left: 2%;
+  margin-top: 7%;
 }
 .btn-sm{
-  margin-left: 8%;
+  margin-left: 3%;
 }
 p {
-  color: aliceblue;
+  color: #155c9a;
   font-size: 22px;
   font-style: inherit;
   font-weight: bold;
@@ -50,8 +53,8 @@ li {
 h2 {
   font-size: 32px;
   font-family: serif;
-  color: aliceblue;
-  margin: 40px 0 40px 0;
+  color: #155c9a;
+  margin: 40px 12px 32px 0;
 }
 
 input {
@@ -65,6 +68,7 @@ button, .btn-sm {
   background-color: thistle;
   font-size: 16px;
   border-radius: 10%;
+  color: #141475;
 }
 
 tr {
@@ -78,26 +82,16 @@ th {
 }
 
 table {
-  margin-left: 10%;
   border-collapse: unset;
   border-spacing: 10px;
 }
 
-.top {
-  width: 20%;
-  text-align: center;
-  border: 1px solid gray;
-  margin: 0 2% 0 2%;
-  background-color: lightgray;
-  font-weight: bold;
-  font-size: 20px;
-  border: 3px outset lightgray
-}
+
 .top {
     width: 20%;
     text-align: center;
     margin: 0 2% 0 2%;
-    background-color: lightpink;
+    background-color: #9689e2;
     font-weight: bold;
     font-size: 20px;
     border-style: outset;
@@ -106,4 +100,8 @@ table {
   background-color: antiquewhite;
   font-weight: initial;
   font-size: 18px
+}
+
+form{
+  margin-right: 4%;
 }
